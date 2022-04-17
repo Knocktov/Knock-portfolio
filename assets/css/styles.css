@@ -4,6 +4,40 @@
   font-family: 'VT323', monospace ;
 }
 
+p {
+  color: rgb(233, 192, 116);
+  font-size: 22px;
+  background:rgba(41,68,41,0.6);
+  transition: 0.5s ease;
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  height: 125px;
+  border-radius: 4px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  text-decoration: none;
+    color: rgb(233, 192, 116);
+    background: rgb(8, 85, 30);
+    padding: 15px 40px;
+    border-radius: 4px;
+    font-weight: normal;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+    border: solid 1px rgb(233, 192, 116);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height:20px
+}
+
+
+
 .dev-text {
   display: flex;
   align-items: center;
@@ -21,14 +55,14 @@
 
 button {
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgb(233, 192, 116);
     background: rgb(8, 85, 30);
     padding: 15px 40px;
     border-radius: 4px;
     font-weight: normal;
     text-transform: uppercase;
     transition: all 0.2s ease-in-out;
-    border: solid 1px white;
+    border: solid 1px rgb(233, 192, 116);
 }
 
 .button:hover {
@@ -51,6 +85,10 @@ button {
   height: 100px;
   display: flex;
   flex-direction: row;
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 9999;
+  top: 0;
 }
 #sp-header.header-sticky{
   background:rgb(41, 68, 41);
@@ -79,4 +117,97 @@ header nav ul {
   height:150px;
   border-radius: 50%;
   border: solid 4px rgb(8, 85, 30);
+}
+
+.pixel-mitch {
+  position: absolute;
+  bottom:0px;
+  left:25%;
+}
+
+.bubble
+{
+position: absolute;
+width: 625px;
+height: 85px;
+padding: 0px;
+background: rgb(233, 192, 116);
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+border: #08551E solid 4px;
+left: 40%;
+bottom: 120px;
+}
+
+.bubble:after
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 7px 30px 7px 0;
+border-color: transparent rgb(233, 192, 116);
+display: block;
+width: 0;
+z-index: 1;
+left: -30px;
+top: 49px;
+}
+
+.bubble:before
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 10px 33px 10px 0;
+border-color: transparent #08551E;
+display: block;
+width: 0;
+z-index: 0;
+left: -37px;
+top: 46px;
+}
+
+.fa {
+  padding: 35px;
+  font-size: 6px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin-left: 45px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Discord */
+.fa-discord {
+  
+  background: #5865F2;
+  color: white;
+}
+
+/* LinkedIn */
+.fa-linkedin {
+  background:#007bb5;
+  color: white;
+}
+
+/* GitHub */
+.fa-github {
+  background: #6cc644;
+  color: white;
+}
+
+/* Google */
+.fa-google {
+  background:#dd4b39;
+  color: white;
 }
