@@ -138,6 +138,9 @@ border-radius: 10px;
 border: #08551E solid 4px;
 left: 15%;
 bottom: -275px;
+display: flex;
+align-items: center;
+flex-direction: row;
 }
 
 .bubble:after
