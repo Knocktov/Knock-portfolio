@@ -6,3 +6,5 @@ Website created using HTML and CSS. @Media tags adjusted to fit multiple differe
 
 Thank you for coming to my TEDta-...I mean Readme. This page was created to act as a portfolio of projects for future clients and act as a landing page for anyone looking
 to see my showcase of skills. This website is a continuous work in progress and will be updated as my skills and understanding of programming grows.
+
+Made with no shortage of fiddling with CSS by Mitch Vandermolen
